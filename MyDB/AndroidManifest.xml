@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.techno"
+    android:versionCode="1"
+    android:versionName="1.0" >
+<uses-permission android:name="android.permission.READ_SMS"/>
+ <uses-permission android:name="android.permission.SEND_SMS"/>
+ <uses-permission android:name="android.permission.INTERNET"/>
+ <uses-permission android:name="android.permission.CALL_PHONE"/>
+ <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+ 
+ <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+ <uses-permission android:name="android.permission.READ_WIFI_STATE"/>
+ 
+ <uses-permission android:name="android.permission.BLUETOOTH"/>
+ <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+ 
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="10" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/abc"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="org.techno.FlashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="org.techno.LoginActivity"
+            android:label="@string/login_name" 
+            android:theme="@android:style/Theme.Wallpaper"
+            >
+            
+            <intent-filter>
+                
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity 
+            android:name=".SignUpActivity"
+            />
+        <activity
+            android:name=".MenuActivity"
+            />
+        
+         <activity
+            android:name=".Questions"
+            />
+         <activity
+            android:name=".ShowAllRecordsActivity"
+            />
+         <activity
+            android:name=".ChangePassword"
+            />
+       <activity
+            android:name=".DeleteActivity"
+            />
+       <activity
+            android:name=".SearchActivity"
+            />
+       
+         </application>
+
+</manifest>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFE4C4"
+     >
+    
+    <TableLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:padding="50dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter Your UserID for the account to be searched"
+                android:textColor="#778899"
+                android:textSize="10dp"
+                android:textStyle="bold|italic" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent" 
+                android:padding="50dp">
+                     
+            <EditText
+                android:id="@+id/userid2"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content" >
+
+                <requestFocus />
+            </EditText>
+        </TableRow>
+       
+
+        <Button
+            android:id="@+id/searchbtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_margin="20dp"
+             />
+                    
+    </TableLayout>
+
+</LinearLayout>

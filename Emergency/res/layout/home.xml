@@ -1,0 +1,344 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/aa"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".FlashActivity" 
+    >
+<ImageView 
+    android:layout_width="fill_parent"
+    android:layout_height="95dp"
+    android:background="@drawable/download"
+    />
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TableLayout 
+        android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+           <TableRow 
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               >   
+               <TextView
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Police"
+                   android:layout_margin="10dp"
+                   android:textSize="20dp"
+                   android:textStyle="bold"
+                   android:textColor="#F0F8FF"
+                
+                /> 
+                <ImageView 
+                   android:layout_width="5dp"
+                    android:layout_height="30dp"
+                   android:background="@drawable/call2" 
+        			android:layout_marginRight="140dp"
+        			android:id="@+id/police"
+                    />
+        </TableRow>
+           <TableRow 
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               >   
+               <TextView
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Fire"
+                   android:layout_margin="10dp"
+                   android:textSize="20dp"
+                   android:textStyle="bold"
+                   android:textColor="#F0F8FF"
+                
+                /> 
+                <ImageView 
+                    android:layout_width="5dp"
+                    android:layout_height="30dp"
+                   android:background="@drawable/call2" 
+        			android:layout_marginRight="140dp"
+                    android:id="@+id/fire"/>
+        </TableRow>
+          <TableRow 
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               >   
+               <TextView
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Ambulance"
+                   android:layout_margin="10dp"
+                   android:textSize="20dp"
+                   android:textStyle="bold"
+                   android:textColor="#F0F8FF"
+                   /> 
+                <ImageView 
+                    android:layout_width="5dp"
+                    android:layout_height="30dp"
+                   android:background="@drawable/call2" 
+        			android:layout_marginRight="140dp"
+                    android:id="@+id/ambulance"/>
+        </TableRow>
+
+          <TableRow
+              android:layout_width="50dp"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp" >
+
+              <TextView
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:paddingRight="-100dp"
+                  android:text="  Traffic Police"
+                  android:textColor="#F0F8FF"
+                  android:textSize="20dp"
+                  android:textStyle="bold" />
+ 
+                <ImageView 
+                    android:layout_width="5dp"
+                    android:layout_height="30dp"
+                   android:background="@drawable/call2" 
+        			android:layout_marginRight="140dp"
+                    android:id="@+id/tp"/>
+        </TableRow>
+          <TableRow 
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               >   
+               <TextView
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:text="AntiCorruption\n HelpLine"
+                   android:layout_margin="10dp"
+                   android:textSize="20dp"
+                   android:textStyle="bold"
+                   android:textColor="#F0F8FF"
+                
+                /> 
+                <ImageView 
+                    android:layout_width="5dp"
+                    android:layout_height="30dp"
+                   android:background="@drawable/call2" 
+        			android:layout_marginRight="140dp"
+        			android:id="@+id/corrup"
+                    />
+        </TableRow>
+                  <TableRow 
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               >   
+               <TextView
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Hospital On \n Wheels"
+                   android:layout_margin="10dp"
+                   android:textSize="20dp"
+                   android:textStyle="bold"
+                   android:textColor="#F0F8FF"
+                
+                /> 
+                <ImageView 
+                    android:layout_width="5dp"
+                    android:layout_height="30dp"
+                   android:background="@drawable/call2" 
+        			android:layout_marginRight="140dp"
+        			android:id="@+id/aspatal"
+                    />
+        </TableRow>
+                    <TableRow 
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               >   
+               <TextView
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Anti-poison"
+                   android:layout_margin="10dp"
+                   android:textSize="20dp"
+                   android:textStyle="bold"
+                   android:textColor="#F0F8FF"
+                
+                /> 
+                <ImageView 
+                    android:layout_width="5dp"
+                    android:layout_height="30dp"
+                   android:background="@drawable/call2" 
+        			android:layout_marginRight="140dp"
+                    android:id="@+id/poison"/>
+        </TableRow>
+                                      <TableRow 
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               >   
+               <TextView
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Air Accident"
+                   android:layout_margin="10dp"
+                   android:textSize="20dp"
+                   android:textStyle="bold"
+                   android:textColor="#F0F8FF"
+                
+                /> 
+                <ImageView 
+                    android:layout_width="5dp"
+                    android:layout_height="30dp"
+                   android:background="@drawable/call2" 
+        			android:layout_marginRight="140dp"
+                    android:id="@+id/air"/>
+        </TableRow>
+                                        <TableRow 
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               >   
+               <TextView
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Train accident"
+                   android:layout_margin="10dp"
+                   android:textSize="20dp"
+                   android:textStyle="bold"
+                   android:textColor="#F0F8FF"
+                
+                /> 
+                <ImageView 
+                    android:layout_width="5dp"
+                    android:layout_height="30dp"
+                   android:background="@drawable/call2" 
+        			android:layout_marginRight="140dp"
+                    android:id="@+id/train"/>
+        </TableRow>
+                                      <TableRow 
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               >   
+               <TextView
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Road Accident"
+                   android:layout_margin="10dp"
+                   android:textSize="20dp"
+                   android:textStyle="bold"
+                   android:textColor="#F0F8FF"
+                
+                /> 
+                <ImageView 
+                    android:layout_width="5dp"
+                    android:layout_height="30dp"
+                   android:background="@drawable/call2" 
+        			android:layout_marginRight="140dp"
+                    android:id="@+id/road"/>
+        </TableRow>
+                                      <TableRow 
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               >   
+               <TextView
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Traffic Help Line"
+                   android:layout_margin="10dp"
+                   android:textSize="20dp"
+                   android:textStyle="bold"
+                   android:textColor="#F0F8FF"
+                
+                /> 
+                <ImageView 
+                   android:layout_width="5dp"
+                    android:layout_height="30dp"
+                   android:background="@drawable/call2" 
+        			android:layout_marginRight="140dp"
+                    android:id="@+id/traffic"/>
+        </TableRow>
+                                      <TableRow 
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               >   
+               <TextView
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Disaster management"
+                   android:layout_margin="10dp"
+                   android:textSize="20dp"
+                   android:textStyle="bold"
+                   android:textColor="#F0F8FF"
+                
+                /> 
+                <ImageView 
+                    android:layout_width="5dp"
+                    android:layout_height="30dp"
+                   android:background="@drawable/call2" 
+        			android:layout_marginRight="140dp"
+                    android:id="@+id/disaster"/>
+        </TableRow>
+                                        <TableRow 
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               >   
+               <TextView
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Women in\nDistress"
+                   android:layout_margin="10dp"
+                   android:textSize="20dp"
+                   android:textStyle="bold"
+                   android:textColor="#F0F8FF"
+                
+                /> 
+                <ImageView 
+                   android:layout_width="40dp"
+                   android:layout_height="40dp"
+                   android:background="@drawable/call2" 
+        			android:layout_marginRight="140dp"
+        			android:id="@+id/women"
+                    />
+        </TableRow>
+                                    <TableRow 
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               >   
+               <TextView
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Indian Airlines"
+                   android:layout_margin="10dp"
+                   android:textSize="20dp"
+                   android:textStyle="bold"
+                   android:textColor="#F0F8FF"
+                
+                /> 
+                <ImageView 
+                   android:layout_width="5dp"
+                    android:layout_height="30dp"
+                   android:background="@drawable/call2" 
+        			android:layout_marginRight="140dp"
+        			android:id="@+id/airlines"
+                    />
+        </TableRow>
+                                      
+    </TableLayout>
+    
+</ScrollView>
+   
+</LinearLayout>
